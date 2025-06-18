@@ -1,4 +1,19 @@
 body {
   margin: 0;
-  background-color: #FFF2E0;
+  background-color: #FFF2E0 ;
+}
+
+.about-me{
+  padding-top:0;
+
+}
+.about-heading{
+  margin-bottom:400px;
+  color:black;
+  font-family: 'Orienta', sans-serif;
+  font-weight: 500;
+  margin-left:109px;
+  font-size:40px;
+
+  
 }

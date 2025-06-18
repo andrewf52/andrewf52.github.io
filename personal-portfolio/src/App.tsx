@@ -6,6 +6,7 @@ import './App.css'
 function App() {
   return (
     <section className="about-me">  
+      <h2 className="about-heading"> About Me</h2>
     </section>
   );
 }
