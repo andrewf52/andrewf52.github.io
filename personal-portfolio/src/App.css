@@ -213,14 +213,6 @@ Work Experience Section
 .work-boxes img{
   border:5px solid;
   border-color:black;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-}
-.work-boxes img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-
 }
 /*
 
