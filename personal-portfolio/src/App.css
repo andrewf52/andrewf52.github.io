@@ -3,9 +3,7 @@
 About Me Section
 
 */
-.app-container{
-  
-}
+
 
 body {
   margin: 0;
@@ -36,10 +34,14 @@ body {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-align: center;
   background-color: #C4A484;
   border-radius: 10px;
+  width:20%; 
+  margin: auto;
+  margin-bottom:10px;
+  margin-top:10px;
+  line-height:normal;
 }
 
 .about-box{
@@ -52,7 +54,7 @@ body {
 
 .about-text{
   color: #000000;
-  font-family: 'Orienta',sans-serif;  font-size: 26px;
+  font-family: 'Orienta',sans-serif;  
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -100,7 +102,7 @@ Hobbies Interests Section
   gap:2rem;  
   padding:1rem;
   background-color: #C4A484;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 
@@ -148,6 +150,7 @@ Hobbies Interests Section
  width:auto;
  max-height:300px;
  border-radius: 10px;
+ margin-top:10px;
 }
 .book-image{
  height:auto;
@@ -161,8 +164,52 @@ Hobbies Interests Section
  width:auto;
  max-height:300px;
  border-radius: 10px;
+ margin-top:10px
 }
 
+/* 
+
+Work Experience Section
+*/
+
+.work-content{
+  display:flex;
+  margin-top:1px;
+  grid-template-columns:repeat(4 auto);
+  gap: 2rem;
+}
+
+.work-content h3{
+  margin-top:0.1em;
+  text-align: center;
+  color:black;
+  font-family: 'Roboto Serif', serif;
+  font-weight:bold;
+  font-size:150%;
+  margin-bottom: 0.1em; 
+}
+.work-content p{
+  margin-top:1px;
+  color: #000000;
+  font-family: 'Orienta',sans-serif;  font-size: 26px;
+  font-style: normal;
+  font-size:110%;
+  line-height:normal;
+}
+.work-boxes{
+  border-radius: 33px;
+  background: #F0DDC7;
+  display:flex;
+  align-items:center;
+  justify-content: center; 
+  flex-direction: column; 
+  width:50%;
+  padding:1rem;
+}  
+.work-boxes img{
+  border:5px solid;
+  border-color:black;
+}
 
 
 
