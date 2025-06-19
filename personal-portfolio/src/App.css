@@ -3,8 +3,6 @@
 About Me Section
 
 */
-
-
 body {
   margin: 0;
   background-color: #FFF2E0 ;
@@ -140,38 +138,13 @@ Hobbies Interests Section
   margin-top:0.1em;
 }
 
-.lck-image{
-  max-width:339px;
-  max-height:244px;
-}
 
-.exercise-image{
- height:auto;
- width:auto;
- max-height:300px;
- border-radius: 10px;
- margin-top:10px;
-}
-.book-image{
- height:auto;
- width:auto;
- max-height:300px;
- border-radius: 10px;
-}
-
-.gohan-image{
- height:auto;
- width:auto;
- max-height:300px;
- border-radius: 10px;
- margin-top:10px
-}
 
 /* 
 
 Work Experience Section
-*/
 
+*/
 .work-content{
   display:flex;
   margin-top:1px;
@@ -206,10 +179,3 @@ Work Experience Section
   width:50%;
   padding:1rem;
 }  
-.work-boxes img{
-  border:5px solid;
-  border-color:black;
-}
-
-
-
