@@ -1,0 +1,33 @@
+.navbar{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+}
+
+.link{
+  color: #000;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+.link:hover{
+color:brown;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right {
+  display: flex;
+  gap: 1rem;
+}
+.logo{
+    height:70px;
+    width:auto;
+}

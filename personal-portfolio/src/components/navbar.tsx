@@ -1,18 +1,22 @@
 import React from 'react';
-import styles from './Navbar.module.css';
+import styles from './navbar.module.css';
+import favicon from '../assets/favicon.png'
 
-export default function Navbar() {
+const Navbar: React.FC<{}> = () => {
   return (
     <nav className={styles.navbar}>
-      <div className={styles.leftSection}>
-        <div className={styles.logo}></div>
-        <span>Andrew Fassler</span>
+      <div className={styles.left}>
+        <img src={favicon} alt="circular logo with letters AF" className={styles.logo} />
       </div>
-      <div className={styles.rightButtons}>
-        <button>Home</button>
-        <button>About</button>
-        <button>Contact</button>
+      <div className={styles.right}>
+        <a href="#about" className={styles.link}>About Me</a>
+        <a href="#hobbies" className={styles.link}>Hobbies</a>        
+        <a href="#work" className={styles.link}>Work Experience</a>
       </div>
-    </nav>
+
+        </nav>
+
   )
 }
+
+export default Navbar;
