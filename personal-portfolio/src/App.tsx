@@ -43,7 +43,7 @@ function App() {
     </section>
 
       {/*} Hobbies Interests Section{*/}
-    <section id="hobbies">
+    <section className="hobbies" id="hobbies">
       <h2 className="headings">Hobbies and Interests</h2>
 
       <div className="hobbies-content"> 

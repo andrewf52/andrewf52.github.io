@@ -101,10 +101,15 @@ body {
 Hobbies Interests Section
 
 */
+
+.hobbies{
+  margin-top:6rem;
+}
+
 .hobbies-content{
   display:grid;
-  grid-template-columns: repeat(2, auto ); /* 2 columns */
-  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  grid-template-columns: repeat(2, 1fr ); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr);   /* 2 rows */
   gap:2rem;  
   padding:1rem;
   background-color: #C4A484;
@@ -167,6 +172,10 @@ Hobbies Interests Section
 Work Experience Section
 
 */
+
+.work{
+  margin-top:6rem;
+}
 .work-content{
   display:flex;
   margin-top:1px;
