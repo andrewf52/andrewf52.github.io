@@ -90,8 +90,7 @@ function App() {
 
           <div className="work-content">
             <div className="work-boxes">
-              <img src={paper} alt ="Hand picking paper out of filing cabinet
-                " className="paper-image" />
+              <img src={paper} alt ="Hand picking paper out of filing cabinet" />
               <h3> Office Assistant <br/> December 2021-August 2023</h3>
               <p>As an office assistant, I assisted the accountant  with ensuring 
                 that employees were paid on time and with the correct hours. 
@@ -100,8 +99,8 @@ function App() {
                 records.</p>
             </div>
             <div className="work-boxes">
-              <img src={banquet} alt ="Hand picking paper out of filing cabinet
-                " className="paper-image" />
+              <img src={banquet} alt ="large room, brightly lit with chandeliers and window
+              with fancy circular tables around the room" />
               <h3> Banquet Server<br/> January 2022-August 2022</h3>
               <p>I worked as a server at a banquet hall, helping with setting
                  up and breaking down events and serving dishes to guests. 
