@@ -14,7 +14,7 @@ const Navbar: React.FC<{}> = () => {
         <a href="#work" className={styles.link}>Work Experience</a>
       </div>
 
-        </nav>
+    </nav>
 
   )
 }

@@ -222,3 +222,28 @@ Work Experience Section
   cursor: pointer;
 
 }
+
+
+/*scroll to top button*/
+#myBtn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #C4A484;
+  color: black;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+#myBtn:hover {
+  background-color: #A67B5B;
+  transform: scale(1.05);
+
+}
