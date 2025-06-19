@@ -8,6 +8,8 @@ import paper from './assets/paper.png'
 import banquet from './assets/banquet.png'
 import arrow from './assets/arrow-up-icon-29566.png'
 import linkedin from './assets/linkedin.png'
+import github from './assets/github.png'
+
 
 import './App.css'
 import Navbar from './components/navbar'
@@ -141,13 +143,13 @@ function App() {
       <section className="contact" id ="contact">
         <h2 className="headings">Contact</h2>
           <div className="contact-box">
-              <img src={linkedin} alt="linkedin logo"></img>
               <a href="https://www.linkedin.com/in/andrew-fassler-3146252b3/" 
-                className="linkedin" target="_blank" rel="noopener noreferrer"
-                >Linkedin</a>
+                className="linkedin" target="_blank" rel="noopener noreferrer">
+                  <img src={linkedin} alt="linkedin logo"></img> Linkedin</a>
+
               <a href="https://github.com/andrewf52"  target="_blank" 
                 rel="noopener noreferrer"className="linkedin">
-                  Github</a>           
+                 <img src={github} alt="github logo"></img> Github</a>           
           </div>
       </section>
 

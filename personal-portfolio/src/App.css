@@ -237,8 +237,9 @@ contact  section
   justify-content: center;  
   gap:1rem;
 }
-.contact-box:img{
-  
+.contact-box img{
+  width:auto;
+  height:20px;
 }
 
 .linkedin{
