@@ -63,6 +63,14 @@ function App() {
             </div>
 
             <div className ="hobby-boxes">
+              <img src={book} alt="white fluffy dog lying with paws together" 
+                className="book-image"/>
+              <h3>Playing with Pet</h3>
+              <p> I have an interest in fantasy settings, so I love books such 
+                as The Lord of the Rings and the Silmarillion.  </p>
+            </div>
+
+            <div className ="hobby-boxes">
               <img src={gohan} alt="white fluffy dog lying with paws together" 
                 className="gohan-image"/>
               <h3>Playing with Pet</h3>

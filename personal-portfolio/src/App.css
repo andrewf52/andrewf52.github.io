@@ -142,11 +142,20 @@ Hobbies Interests Section
  max-height:300px;
   border-radius: 10px;
 }
+.book-image{
+ height:auto;
+ width:auto;
+ max-height:300px;
+border-radius: 10px;
+}
+
 .gohan-image{
  height:auto;
  width:auto;
  max-height:300px;
 border-radius: 10px;
 }
+
+
 
 
