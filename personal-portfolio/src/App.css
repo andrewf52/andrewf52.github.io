@@ -37,9 +37,11 @@ body {
   text-align: center;
   background-color: #C4A484;
   border-radius: 10px;
-  width:30%; 
+  width:20%; 
   margin: auto;
   margin-bottom:10px;
+  margin-top:10px;
+  line-height:normal;
 }
 
 .about-box{
@@ -100,7 +102,7 @@ Hobbies Interests Section
   gap:2rem;  
   padding:1rem;
   background-color: #C4A484;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 
@@ -169,9 +171,12 @@ Hobbies Interests Section
 
 Work Experience Section
 */
+
 .work-content{
+  display:flex;
   margin-top:1px;
-  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  grid-template-columns:repeat(4 auto);
+  gap: 2rem;
 }
 
 .work-content h3{
@@ -188,7 +193,7 @@ Work Experience Section
   color: #000000;
   font-family: 'Orienta',sans-serif;  font-size: 26px;
   font-style: normal;
-  font-size:130%;
+  font-size:110%;
   line-height:normal;
 }
 .work-boxes{
@@ -199,7 +204,12 @@ Work Experience Section
   justify-content: center; 
   flex-direction: column; 
   width:50%;
+  padding:1rem;
 }  
+.work-boxes img{
+  border:5px solid;
+  border-color:black;
+}
 
 
 

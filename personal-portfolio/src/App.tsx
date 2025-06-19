@@ -5,6 +5,8 @@ import exercise from './assets/exercise.png'
 import book from './assets/book.png'
 import gohan from './assets/gohan.png'
 import paper from './assets/paper.png'
+import banquet from './assets/banquet.png'
+
 import './App.css'
 
 function App() {
@@ -84,17 +86,28 @@ function App() {
     
       {/*} Hobbies Interests Section{*/}
         <section className="work">
+        <h2 className="headings">Work Experience</h2>
+
           <div className="work-content">
-            <h2 className="headings">Work Experience</h2>
             <div className="work-boxes">
               <img src={paper} alt ="Hand picking paper out of filing cabinet
                 " className="paper-image" />
-              <h3> Office Assistant</h3>
+              <h3> Office Assistant <br/> December 2021-August 2023</h3>
               <p>As an office assistant, I assisted the accountant  with ensuring 
                 that employees were paid on time and with the correct hours. 
                 I also developed organizational skills by filing receipts and paperwork 
                 to maintain efficient documentation and ensure easy access to important 
                 records.</p>
+            </div>
+            <div className="work-boxes">
+              <img src={banquet} alt ="Hand picking paper out of filing cabinet
+                " className="paper-image" />
+              <h3> Banquet Server<br/> January 2022-August 2022</h3>
+              <p>I worked as a server at a banquet hall, helping with setting
+                 up and breaking down events and serving dishes to guests. 
+                 An important skill I managed to learn was to work in a 
+                 fast-paced environment where I always needed to be finding 
+                 something to do or someone to assist.  </p>
             </div>
           </div>
         </section>
