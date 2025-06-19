@@ -1,20 +1,33 @@
 .navbar{
-    background-color: white;
-    display:flex;
-    justify-content:right;
-    padding:1rem;
-    border-radius: 30px;
-    gap:1rem;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 30px;
 }
 
 .link{
   color: #000;
-  text-decoration: ;
   font-weight: 600;
   font-size: 1.2rem;
   cursor: pointer;
 }
 
-.link hover{
-    text-decoration:underline;
+
+.link:hover{
+color:brown;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right {
+  display: flex;
+  gap: 1rem;
+}
+.logo{
+    height:70px;
+    width:auto;
 }

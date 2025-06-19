@@ -12,10 +12,12 @@ import Navbar from './components/navbar'
 function App() {
   return (
     <div>
+      <header>
     {/*} Navbar {*/}
-      <Navbar/>
+        <Navbar/>
+    </header>
     {/*} About Me Section{*/}
-    <section className="about-me">  
+    <section className="about-me" id="about">  
       <h2 className="headings"> About Me</h2>
 
       <div className="about-content">
@@ -41,7 +43,7 @@ function App() {
     </section>
 
       {/*} Hobbies Interests Section{*/}
-    <section>
+    <section id="hobbies">
       <h2 className="headings">Hobbies and Interests</h2>
 
       <div className="hobbies-content"> 
@@ -86,7 +88,7 @@ function App() {
     </section>
     
       {/*} Hobbies Interests Section{*/}
-    <section className="work">
+    <section className="work" id="work">
     <h2 className="headings">Work Experience</h2>
 
       <div className="work-content">
