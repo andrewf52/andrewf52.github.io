@@ -6,6 +6,8 @@ import book from './assets/book.png'
 import gohan from './assets/gohan.png'
 import paper from './assets/paper.png'
 import banquet from './assets/banquet.png'
+import arrow from './assets/arrow-up-icon-29566.png'
+import linkedin from './assets/linkedin.png'
 
 import './App.css'
 import Navbar from './components/navbar'
@@ -134,8 +136,25 @@ function App() {
         </div>
       </div>
     </section>
-    {showButton && (
-        <button id="myBtn" title="Go to top" onClick={scrollToTop}>Top</button>)}
+
+      {/*} Contact links{*/}
+      <section className="contact" id ="contact">
+        <h2 className="headings">Contact</h2>
+          <div className="contact-box">
+              <img src={linkedin} alt="linkedin logo"></img>
+              <a href="https://www.linkedin.com/in/andrew-fassler-3146252b3/" 
+                className="linkedin" target="_blank" rel="noopener noreferrer"
+                >Linkedin</a>
+              <a href="https://github.com/andrewf52"  target="_blank" 
+                rel="noopener noreferrer"className="linkedin">
+                  Github</a>           
+          </div>
+      </section>
+
+      {showButton && (
+          <button id="myBtn" title="Go to top" onClick={scrollToTop}>
+             <img src={arrow} alt="Black arrow pointing up" className="top-arrow" />
+          </button>)}
     </div>
   );
 }

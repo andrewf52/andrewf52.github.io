@@ -179,7 +179,7 @@ Work Experience Section
 .work-content{
   display:flex;
   margin-top:1px;
-  grid-template-columns:repeat(4 auto);
+  grid-template-columns:repeat(2 auto);
   gap: 2rem;
 }
 
@@ -222,7 +222,32 @@ Work Experience Section
   cursor: pointer;
 
 }
+/*
 
+contact  section
+
+*/
+.contact{
+  margin-top:6rem;
+}
+
+.contact-box{
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+  gap:1rem;
+}
+.contact-box:img{
+  
+}
+
+.linkedin{
+  color: #000;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+}
 
 /*scroll to top button*/
 #myBtn {
@@ -246,4 +271,8 @@ Work Experience Section
   background-color: #A67B5B;
   transform: scale(1.05);
 
+}
+.top-arrow{
+  height:2.5rem;
+  width:auto;
 }
