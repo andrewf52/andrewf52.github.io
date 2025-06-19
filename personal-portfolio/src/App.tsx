@@ -37,7 +37,7 @@ function App() {
       </section>
   
         {/*} Hobbies Intersts Section{*/}
-        <section className="Hobbies">
+        <section className="hobbies">
           <h2 className="headings">Hobbies and Interests</h2>
 
           <div className="hobbies-content"> 
