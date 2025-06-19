@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Andrew  from './assets/Andrew.png';
 import LCK from './assets/LCK.png';
 import exercise from './assets/exercise.png'
@@ -9,10 +9,31 @@ import banquet from './assets/banquet.png'
 
 import './App.css'
 import Navbar from './components/navbar'
+
+
+
 function App() {
+    const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowButton(window.scrollY > 20);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    const navbar = document.getElementById('nav');
+    if (navbar) {
+      navbar.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div>
-      <header>
+      <header id="nav">
     {/*} Navbar {*/}
         <Navbar/>
     </header>
@@ -113,6 +134,8 @@ function App() {
         </div>
       </div>
     </section>
+    {showButton && (
+        <button id="myBtn" title="Go to top" onClick={scrollToTop}>Top</button>)}
     </div>
   );
 }
