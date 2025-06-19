@@ -73,7 +73,9 @@ function App() {
 
       <div className="hobbies-content"> 
         <div className="hobby-boxes">
-          <img src={LCK} alt ="League of Legends LCK logo" className="lck-image" />
+          <a href="https://lolesports.com" target="_blank"rel="noopener noreferrer">
+            <img src={LCK} alt ="League of Legends LCK logo" className="lck-image"/>
+          </a>
           <h3>League of Legends</h3>
           <p>Over the past year I have developed an 
             interest in watching professional League 
@@ -84,8 +86,11 @@ function App() {
         </div>
 
         <div className ="hobby-boxes">
-          <img src={exercise} alt="mirror photo of me sitting in my gym" 
-            className="exercise-image" />
+          <a href="https://www.surrey.ca/parks-recreation/recreation-facilities/north-surrey-sport-ice-complex" 
+          target="_blank"rel="noopener noreferrer">
+            <img src={exercise} alt="mirror photo of me sitting in my gym" 
+            className="exercise-image"/>
+          </a>
           <h3>Exercise</h3>
           <p> I believe that everyone should have some kind of physical 
             hobby to take care of their physical health. For me, it is 
@@ -94,16 +99,22 @@ function App() {
         </div>
 
         <div className ="hobby-boxes">
-          <img src={book} alt="white fluffy dog lying with paws together" 
+          <a href="https://www.tolkiensociety.org/discover/biography/" 
+          target="_blank"rel="noopener noreferrer">
+            <img src={book} alt="collection of JRR Tolkien books" 
             className="book-image"/>
-          <h3>Playing with Pet</h3>
+          </a>
+          <h3>Reading</h3>
           <p> I have an interest in fantasy settings, so I love books such 
             as The Lord of the Rings and the Silmarillion.  </p>
         </div>
 
         <div className ="hobby-boxes">
-          <img src={gohan} alt="white fluffy dog lying with paws together" 
-            className="gohan-image"/>
+          <a href="https://www.mydoodlepuppy.com/blog/white-maltipoo-with-pictures" 
+          target="_blank"rel="noopener noreferrer">
+            <img src={gohan} alt="white fluffy dog lying with paws together" 
+              className="gohan-image"/>
+          </a>
           <h3>Playing with Pet</h3>
           <p> I love playing with and taking care of my girlfriend’s dog,
             Gohan! Gohan is an almost 3 year old maltipoo (maltese poodle) 
