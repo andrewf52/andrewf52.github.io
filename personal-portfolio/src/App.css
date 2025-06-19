@@ -137,7 +137,21 @@ Hobbies Interests Section
   font-size:100%;
   margin-top:0.1em;
 }
+.hobby-boxes img{
+ height:auto;
+ width:auto;
+ max-height:300px;
+ border-radius: 10px;
+ margin-top:10px;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+}
+
+.hobby-boxes img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
 
 
 /* 
@@ -179,3 +193,15 @@ Work Experience Section
   width:50%;
   padding:1rem;
 }  
+.work-boxes img{
+  border:5px solid;
+  border-color:black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.work-boxes img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+}
